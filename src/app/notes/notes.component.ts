@@ -120,4 +120,27 @@ export class NotesComponent {
     }
     return '';
   }
+
+  /**
+   * Create the read checkbox ID from the given input string.
+   *
+   * @param input The provided input number
+   *
+   * @returns The prefixed output string
+   */
+  public markReadCheckboxID(input: number): string {
+    if (input) {
+      return `read-${input}`;
+    }
+    return '';
+  }
+
+  /**
+   * Set the note's read indicator
+   *
+   * @param to The value to be set
+   */
+  public setNoteRead(to: boolean) {
+    console.log(to);
+  }
 }

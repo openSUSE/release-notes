@@ -19,3 +19,17 @@ $linkcolor: #007bff;
 .doc-badge {
   margin-left: 0.5em;
 }
+
+label {
+  float: left;
+  margin: 0;
+  width: 30%;
+  input {
+    margin-right: 0.3em;
+  }
+}
+
+.label-section {
+  float: right;
+  width: 70%;
+}

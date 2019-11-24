@@ -14,6 +14,7 @@ export interface Note {
   action_required: boolean;
   release_version: string;
   documentation: Documentation[];
+  read: boolean;
 }
 
 export interface Documentation {

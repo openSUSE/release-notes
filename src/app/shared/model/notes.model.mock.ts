@@ -23,5 +23,6 @@ export const notesMock: Note[] = [
     action_required: true,
     release_version: 'release_version',
     documentation: [documentationMock],
+    read: false,
   },
 ];
